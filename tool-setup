@@ -1,0 +1,58 @@
+source /usr/apps/cadence/SETUP.IUS82
+setenv CDSHOME /w/apps3/Cadence/IC617
+source /w/apps3/Cadence/IC617/SETUP
+
+source /w/apps3/Cadence/ASSURA41/SETUP
+source /w/apps3/Cadence/MMSIM151/SETUP
+set path = (/w/apps3/Cadence/MMSIM151/bin $path)
+
+source /w/apps3/Cadence/EXT171/SETUP
+
+setenv ASSURAHOME /w/apps3/Cadence/ASSURA41
+set path=($ASSURAHOME/tools.lnx86/dfII/bin $ASSURAHOME/tools.lnx86/bin $ASSURAHOME/tools.lnx86/assura/bin $path)
+
+setenv QRC_HOME /usr/apps/cadence2/EXT81/linux
+set path=($QRC_HOME/bin $path)
+
+setenv SPECTRE_DEFAULTS -E
+setenv CDS_Netlisting_Mode Analog
+setenv CDS_AUTO_64BIT all
+
+#S130nm commands
+
+#/bin/csh
+
+# file created by Matias Jara
+
+pushd .
+#cd /space/nobackup/ktyagi30/tool/s130
+
+setenv PDK_HOME /usr/public.2/tech/cadence/90nm/gpdk090_v4.6/libs.oa22/V2.1.302
+#setenv PROJECT s130_project
+#setenv PROJ_HOME /space/nobackup/mijarat/tool/s130
+#setenv PDFVIEWER /usr/bin/evince
+
+setenv USE_CALIBRE_VCO aoi
+
+setenv MGC_CALIBRE_DRC_RUNSET_FILE $PDK_HOME/PV/Calibre/DRC/s130_drc_runset
+setenv MGC_CALIBRE_LVS_RUNSET_FILE $PDK_HOME/PV/Calibre/LVS/s130_lvs_runset
+setenv MGC_CALIBRE_PEX_RUNSET_FILE $PDK_HOME/PV/Calibre/PEX/s130_pex_runset
+setenv MGC_CALIBRE_CUSTOMIZATION_FILE $PDK_HOME/PV/Calibre/set_calibre_custom_switches
+
+setenv PVSUI_DEFAULT_SETTING $PDK_HOME/PV/PVS/.cds_pvsui
+
+setenv SW_PROCESS s130
+setenv METAL_STACK S130
+setenv SW_PDK_ROOT /w/ee.00/razavi/mijarat/Desktop/S130_PDK
+setenv SW_IP_HOME $SW_PDK_ROOT/$SW_PROCESS
+
+setenv CDS_PROJECT $PDK_HOME/PROGS/SKILL
+
+# Sets CDL netlisting as Analog by default; important for calibre
+setenv CDS_Netlisting_Mode "Analog"
+# Use 64 bit executables
+setenv CDS_AUTO_64BIT "ALL" 
+# Fixes compilation error with veriloga in spectre (compile from disk instead of shared memory)
+setenv CDS_AHDL_PIPEBUILD_C_FLOW "NO"
+
+#virtuoso &

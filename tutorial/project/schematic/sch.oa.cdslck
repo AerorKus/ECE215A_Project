@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      laj
+HostName                       eeapps05.seas.ucla.edu
+ProcessIdentifier              27671
+ProcessCreationTime_UTC        1732171162
+ProcessCreationTime_Readable   Wed Nov 20 22:39:22 2024 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a/tutorial/project/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Nov 20 23:02:17 2024 PST

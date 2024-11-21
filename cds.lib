@@ -1,0 +1,17 @@
+# Cadence libs
+#INCLUDE $ICHOME/share/cdssetup/cds.lib
+#DEFINE connectLib $INCISIVEHOME/tools.lnx86/affirma_ams/etc/connect_lib/connectLib
+
+# S130 libs
+INCLUDE $PDK_HOME/LIBS/cds.lib
+
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE US_8ths $CDSHOME/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+
+DEFINE avTech /w/apps3/Cadence/ASSURA415-617/tools/assura/etc/avtech/avTech
+DEFINE ahdlLib /w/apps3/Cadence/IC617/tools/dfII/samples/artist/ahdlLib
+
+#DEFINE trial_1 /w/class.1/ee/ee215a/ee215at2/ee215a/trial_1
+
+DEFINE tutorial /w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a/tutorial

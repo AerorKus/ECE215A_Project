@@ -1,0 +1,2862 @@
+'(nil version 1.0 bBox ((3017 441) (3471 1409)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+printInfoDpl->expTable->waves = (let
+(tmp1)
+tmp1 = nil
+list(tmp1)
+)
+printInfoDpl->expTable->origWaves = (let
+(tmp1)
+tmp1 = nil
+list(tmp1)
+)
+printInfoDpl->expTable->expressions = (let
+(tmp1)
+tmp1 = "OP(\"/MN8\" \"??\")"
+list(tmp1)
+)
+printInfoDpl->expTable->aliases = (let
+(tmp1)
+tmp1 = "OP(\"/MN8\" \"??\")"
+list(tmp1)
+)
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->optionDpl->format = 'suffix
+printInfoDpl->optionDpl->numSigDigits = 4
+printInfoDpl->optionDpl->linLog = "Linear"
+printInfoDpl->optionDpl->from = nil
+printInfoDpl->optionDpl->to = nil
+printInfoDpl->optionDpl->step = nil
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
+)
+printInfoDpl->printType = "simple wave"
+printInfoDpl->origStrList = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96 tmp97)
+tmp1 = "signal            OP(\"/MN8\" \"??\")"
+tmp2 = "beff                 26.99m         "
+tmp3 = "betaeff              34.66m         "
+tmp4 = "cbb                   6.068f        "
+tmp5 = "cbd                  -2.167a        "
+tmp6 = "cbdbo                -2.167a        "
+tmp7 = "cbg                  -3.493f        "
+tmp8 = "cbgbo                -3.492f        "
+tmp9 = "cbs                  -2.573f        "
+tmp10 = "cbsbo                -2.573f        "
+tmp11 = "cdb                  -1.014f        "
+tmp12 = "cdd                   4.929f        "
+tmp13 = "cddbo                 2.415a        "
+tmp14 = "cdg                 -10.24f         "
+tmp15 = "cdgbo                -5.315f        "
+tmp16 = "cds                   6.327f        "
+tmp17 = "cdsbo                 6.327f        "
+tmp18 = "cgb                  -3.535f        "
+tmp19 = "cgd                  -4.923f        "
+tmp20 = "cgdbo                 3.245a        "
+tmp21 = "cgg                  26.62f         "
+tmp22 = "cggbo                16.77f         "
+tmp23 = "cgs                 -18.17f         "
+tmp24 = "cgsbo               -13.24f         "
+tmp25 = "cjd                   7.066f        "
+tmp26 = "cjs                  11.87f         "
+tmp27 = "covlgb               52.1z          "
+tmp28 = "covlgd                4.926f        "
+tmp29 = "covlgs                4.926f        "
+tmp30 = "csb                  -1.519f        "
+tmp31 = "csd                  -3.493a        "
+tmp32 = "csg                 -12.89f         "
+tmp33 = "css                  14.41f         "
+tmp34 = "fug                  56.37G         "
+tmp35 = "gbd                   4p            "
+tmp36 = "gbs                   4.223p        "
+tmp37 = "gds                 823.4u          "
+tmp38 = "gm                    9.43m         "
+tmp39 = "gmb                   1.44m         "
+tmp40 = "gmbs                  1.44m         "
+tmp41 = "gmoverid              2.357         "
+tmp42 = "ibe                  -4.586n        "
+tmp43 = "ibulk                -4.585n        "
+tmp44 = "id                    4m            "
+tmp45 = "idb                   5.135p        "
+tmp46 = "ide                   4m            "
+tmp47 = "ids                   4m            "
+tmp48 = "igb                   0             "
+tmp49 = "igbacc                0             "
+tmp50 = "igbinv                0             "
+tmp51 = "igcd                  0             "
+tmp52 = "igcs                  0             "
+tmp53 = "igd                   0             "
+tmp54 = "igdt                  0             "
+tmp55 = "ige                  -0             "
+tmp56 = "igidl                 0             "
+tmp57 = "igisl                 0             "
+tmp58 = "igs                   0             "
+tmp59 = "isb                  55.18f         "
+tmp60 = "ise                  -4m            "
+tmp61 = "isub                  4.585n        "
+tmp62 = "pwr                   5.175m        "
+tmp63 = "qb                  -15.25f         "
+tmp64 = "qbi                 -15.25f         "
+tmp65 = "qd                   -3.572f        "
+tmp66 = "qdi                  -3.572f        "
+tmp67 = "qg                   24.17f         "
+tmp68 = "qgdovl                0             "
+tmp69 = "qgi                  24.17f         "
+tmp70 = "qgsovl                0             "
+tmp71 = "qjd                 -11.43f         "
+tmp72 = "qjs                -154.1a          "
+tmp73 = "qs                   -5.354f        "
+tmp74 = "qsi                  -5.354f        "
+tmp75 = "rdeff                12.92          "
+tmp76 = "region                2             "
+tmp77 = "reversed              0             "
+tmp78 = "rgate                 1.111         "
+tmp79 = "rgbd                  0             "
+tmp80 = "ron                 323.5           "
+tmp81 = "rout                  1.214K        "
+tmp82 = "rseff                12.92          "
+tmp83 = "self_gain            11.45          "
+tmp84 = "ueff                 26.49m         "
+tmp85 = "vbs                   0             "
+tmp86 = "vdb                   1.294         "
+tmp87 = "vds                   1.294         "
+tmp88 = "vdsat               264.1m          "
+tmp89 = "vdss                264.1m          "
+tmp90 = "vearly                4.858         "
+tmp91 = "vgb                   1.294         "
+tmp92 = "vgd                   0             "
+tmp93 = "vgs                   1.294         "
+tmp94 = "vgt                 544.4m          "
+tmp95 = "vsat_marg             1.03          "
+tmp96 = "vsb                  -0             "
+tmp97 = "vth                 749.4m          "
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96 tmp97)
+)
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->width = 14
+printInfoDpl->numSpaces = 4
+printInfoDpl->noMerge = nil
+printInfoDpl->resultsDir = nil
+printInfoDpl->resultName = nil
+printInfoDpl->unitList = (let
+(tmp1 tmp2)
+tmp1 = ""
+tmp2 = ""
+list(tmp1 tmp2)
+)
+printInfoDpl->waveNameList = (let
+(tmp1 tmp2)
+tmp1 = "signal"
+tmp2 = "OP(\"/MN8\" \"??\")"
+list(tmp1 tmp2)
+)
+(unless printInfoDpl->context
+printInfoDpl->context = (ncons nil)
+)
+printInfoDpl->context->runObjFile = "runObjFile"
+printInfoDpl->context->netlistDir = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic/netlist"
+printInfoDpl->context->relativeDir = "/w/home.01/ol/grad/laj/simulation/project/spectre"
+printInfoDpl->context->dataDir = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+(unless printInfoDpl->context->cache
+printInfoDpl->context->cache = (ncons nil)
+)
+printInfoDpl->context->cache->OP = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN5"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN6"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP5"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP3"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP7"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP2"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP5"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -6.7523729993599768e-01
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP5"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.1752372999359977e+00
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP5"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 9.8958143773507758e-05
+list(tmp1 tmp2)
+)
+tmp10 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP5"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 4.6374937579520573e-04
+list(tmp1 tmp2)
+)
+tmp11 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP5"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp12 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP3"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -6.7523730009298633e-01
+list(tmp1 tmp2)
+)
+tmp13 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP3"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.1752373000929863e+00
+list(tmp1 tmp2)
+)
+tmp14 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP8"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.6521357936012064e+00
+list(tmp1 tmp2)
+)
+tmp15 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP8"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.6521357936012064e+00
+list(tmp1 tmp2)
+)
+tmp16 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP8"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -3.9999999968268691e-03
+list(tmp1 tmp2)
+)
+tmp17 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP8"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 5.8661201956114262e-03
+list(tmp1 tmp2)
+)
+tmp18 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP8"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp19 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I12"
+tmp2 = "v"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 5.0615369307077374e-01
+list(tmp1 tmp2)
+)
+tmp20 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I12"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "i"
+tmp2 = "v"
+tmp3 = "pwr"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2)
+)
+tmp21 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP6"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.2490586270482007e-01
+list(tmp1 tmp2)
+)
+tmp22 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP6"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.6481431626408178e+00
+list(tmp1 tmp2)
+)
+tmp23 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP6"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 9.8958144874440457e-05
+list(tmp1 tmp2)
+)
+tmp24 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP6"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.5216515668634045e-04
+list(tmp1 tmp2)
+)
+tmp25 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP6"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp26 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP4"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.2490586278915572e-01
+list(tmp1 tmp2)
+)
+tmp27 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP4"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.6481431628821421e+00
+list(tmp1 tmp2)
+)
+tmp28 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN8"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 9.4297054489317234e-03
+list(tmp1 tmp2)
+)
+tmp29 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN8"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 3.9999999974510564e-03
+list(tmp1 tmp2)
+)
+tmp30 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN8"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.2938463069292263e+00
+list(tmp1 tmp2)
+)
+tmp31 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN8"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.2938463069292263e+00
+list(tmp1 tmp2)
+)
+tmp32 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN8"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp33 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I16"
+tmp2 = "v"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.4786420639879369e-01
+list(tmp1 tmp2)
+)
+tmp34 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I16"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "i"
+tmp2 = "v"
+tmp3 = "pwr"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2)
+)
+tmp35 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP7"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -9.9999983370838239e-05
+list(tmp1 tmp2)
+)
+tmp36 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP7"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 4.6920872822573539e-05
+list(tmp1 tmp2)
+)
+tmp37 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP2"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -3.9717521541571710e-02
+list(tmp1 tmp2)
+)
+tmp38 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP2"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -2.4868485622823813e+00
+list(tmp1 tmp2)
+)
+tmp39 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP2"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -9.9999983471835710e-05
+list(tmp1 tmp2)
+)
+tmp40 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP2"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 4.6920872871140471e-05
+list(tmp1 tmp2)
+)
+tmp41 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP2"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp42 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN6"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 5.0079443560096596e-21
+list(tmp1 tmp2)
+)
+tmp43 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN6"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -9.8977223146057145e-05
+list(tmp1 tmp2)
+)
+tmp44 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN6"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.9231431626408177e+00
+list(tmp1 tmp2)
+)
+tmp45 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN6"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 7.4698787814072443e-01
+list(tmp1 tmp2)
+)
+tmp46 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN6"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp47 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN4"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.9231431628821420e+00
+list(tmp1 tmp2)
+)
+tmp48 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN4"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 7.4698787785866738e-01
+list(tmp1 tmp2)
+)
+tmp49 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN7"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 2.3513216482035934e-05
+list(tmp1 tmp2)
+)
+tmp50 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN7"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.0418481517908941e-06
+list(tmp1 tmp2)
+)
+tmp51 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN7"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 4.7660000000000002e-01
+list(tmp1 tmp2)
+)
+tmp52 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN7"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 3.3471310407815422e+00
+list(tmp1 tmp2)
+)
+tmp53 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN7"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp54 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN5"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 2.3513216481931824e-05
+list(tmp1 tmp2)
+)
+tmp55 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN5"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.0418481517833094e-06
+list(tmp1 tmp2)
+)
+tmp56 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN5"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 4.7660000000000002e-01
+list(tmp1 tmp2)
+)
+tmp57 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN5"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 3.3471310407408095e+00
+list(tmp1 tmp2)
+)
+tmp58 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN5"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp59 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP3"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 9.8958143872712975e-05
+list(tmp1 tmp2)
+)
+tmp60 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP3"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 4.6374937601043845e-04
+list(tmp1 tmp2)
+)
+tmp61 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP3"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp62 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I5"
+tmp2 = "v"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -1.5868485622823811e+00
+list(tmp1 tmp2)
+)
+tmp63 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I5"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "i"
+tmp2 = "v"
+tmp3 = "pwr"
+list(tmp1 tmp2 tmp3)
+)
+list(tmp1 tmp2)
+)
+tmp64 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP4"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 9.8958144973644848e-05
+list(tmp1 tmp2)
+)
+tmp65 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP4"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 1.5216515677719369e-04
+list(tmp1 tmp2)
+)
+tmp66 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP4"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp67 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP7"
+tmp2 = "vds"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -3.9717521500838959e-02
+list(tmp1 tmp2)
+)
+tmp68 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP7"
+tmp2 = "vgs"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -2.4868485622823813e+00
+list(tmp1 tmp2)
+)
+tmp69 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP7"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp70 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN4"
+tmp2 = "gm"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = 5.0079442106852971e-21
+list(tmp1 tmp2)
+)
+tmp71 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN4"
+tmp2 = "id"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = -9.8977222309106248e-05
+list(tmp1 tmp2)
+)
+tmp72 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN4"
+tmp2 = "?"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+tmp1 = "ids"
+tmp2 = "vgs"
+tmp3 = "vds"
+tmp4 = "vbs"
+tmp5 = "vgd"
+tmp6 = "vdb"
+tmp7 = "vgb"
+tmp8 = "vth"
+tmp9 = "vdsat"
+tmp10 = "gm"
+tmp11 = "gds"
+tmp12 = "gmbs"
+tmp13 = "betaeff"
+tmp14 = "cjd"
+tmp15 = "cjs"
+tmp16 = "cgg"
+tmp17 = "cgd"
+tmp18 = "cgs"
+tmp19 = "cgb"
+tmp20 = "cdg"
+tmp21 = "cdd"
+tmp22 = "cds"
+tmp23 = "cdb"
+tmp24 = "csg"
+tmp25 = "csd"
+tmp26 = "css"
+tmp27 = "csb"
+tmp28 = "cbg"
+tmp29 = "cbd"
+tmp30 = "cbs"
+tmp31 = "cbb"
+tmp32 = "covlgs"
+tmp33 = "covlgd"
+tmp34 = "covlgb"
+tmp35 = "cggbo"
+tmp36 = "cgdbo"
+tmp37 = "cgsbo"
+tmp38 = "cbgbo"
+tmp39 = "cbdbo"
+tmp40 = "cbsbo"
+tmp41 = "cdgbo"
+tmp42 = "cddbo"
+tmp43 = "cdsbo"
+tmp44 = "ron"
+tmp45 = "id"
+tmp46 = "ibulk"
+tmp47 = "pwr"
+tmp48 = "gmoverid"
+tmp49 = "ueff"
+tmp50 = "rdeff"
+tmp51 = "rseff"
+tmp52 = "rgbd"
+tmp53 = "igidl"
+tmp54 = "igisl"
+tmp55 = "igdt"
+tmp56 = "igd"
+tmp57 = "igs"
+tmp58 = "igb"
+tmp59 = "igbacc"
+tmp60 = "igbinv"
+tmp61 = "igcs"
+tmp62 = "igcd"
+tmp63 = "isub"
+tmp64 = "gbs"
+tmp65 = "gbd"
+tmp66 = "qg"
+tmp67 = "qd"
+tmp68 = "qs"
+tmp69 = "qb"
+tmp70 = "qjd"
+tmp71 = "qjs"
+tmp72 = "qgdovl"
+tmp73 = "qgsovl"
+tmp74 = "qgi"
+tmp75 = "qdi"
+tmp76 = "qsi"
+tmp77 = "qbi"
+tmp78 = "ide"
+tmp79 = "ige"
+tmp80 = "ise"
+tmp81 = "ibe"
+tmp82 = "idb"
+tmp83 = "isb"
+tmp84 = "vsb"
+tmp85 = "gmb"
+tmp86 = "vgt"
+tmp87 = "vdss"
+tmp88 = "vsat_marg"
+tmp89 = "self_gain"
+tmp90 = "rout"
+tmp91 = "beff"
+tmp92 = "fug"
+tmp93 = "rgate"
+tmp94 = "vearly"
+tmp95 = "region"
+tmp96 = "reversed"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96)
+)
+list(tmp1 tmp2)
+)
+tmp73 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MP8"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp74 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/I12"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp75 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2 tmp3)
+tmp1 = "/MN8"
+tmp2 = "??"
+tmp3 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2 tmp3)
+)
+tmp2 = nil
+list(tmp1 tmp2)
+)
+tmp76 = (let
+(tmp1 tmp2)
+tmp1 = 'time
+tmp2 = 1732179753
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76)
+)
+printInfoDpl->context->cache->IDC = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP3/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP3/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp3 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP3/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp4 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP3/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp5 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP4/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP4/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp7 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP4/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp8 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP4/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp9 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP4/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp10 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP4/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp11 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP7/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp12 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP7/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp13 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP7/g"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp14 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP7/g"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp15 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MN4/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp16 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MN4/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp17 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MN4/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp18 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MN4/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp19 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp20 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp21 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp22 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp23 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp24 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp25 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/g"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp26 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP8/g"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp27 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I12/PLUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp28 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I12/PLUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp29 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I12/MINUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp30 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I12/MINUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp31 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I5/PLUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp32 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I5/PLUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp33 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I5/MINUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp34 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I5/MINUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp35 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I16/PLUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp36 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I16/PLUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp37 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I16/MINUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp38 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/I16/MINUS"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp39 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP7/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp40 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP7/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp41 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp42 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/b"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp43 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp44 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/s"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp45 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp46 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/d"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp47 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/g"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+tmp48 = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = "/MP2/g"
+tmp2 = "/w/home.01/ol/grad/laj/simulation/project/spectre/schematic"
+list(tmp1 tmp2)
+)
+tmp2 = 'dataNotFound
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48)
+)
+printInfoDpl->context->cache->opPointDevices = (let
+(tmp1 tmp2 tmp3)
+tmp1 = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30)
+tmp1 = "E0"
+tmp2 = "I12"
+tmp3 = "I16"
+tmp4 = "I4"
+tmp5 = "I5"
+tmp6 = "MN0"
+tmp7 = "MN1"
+tmp8 = "MN2"
+tmp9 = "MN3"
+tmp10 = "MN4"
+tmp11 = "MN5"
+tmp12 = "MN6"
+tmp13 = "MN7"
+tmp14 = "MN8"
+tmp15 = "MP0"
+tmp16 = "MP1"
+tmp17 = "MP2"
+tmp18 = "MP3"
+tmp19 = "MP4"
+tmp20 = "MP5"
+tmp21 = "MP6"
+tmp22 = "MP7"
+tmp23 = "MP8"
+tmp24 = "V1"
+tmp25 = "V14"
+tmp26 = "V15"
+tmp27 = "V16"
+tmp28 = "V17"
+tmp29 = "V3"
+tmp30 = "V4"
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30)
+)
+tmp2 = 1732179753
+tmp3 = 'OP
+list(tmp1 tmp2 tmp3)
+)
+printInfoDpl->context->simData = nil
+printInfoDpl->context->simulator = "spectre"
+printInfoDpl->realExpList = nil
+printInfoDpl->saveLoadFile = "/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a/tutorial/project/spectre_state1/printSetup.state"
