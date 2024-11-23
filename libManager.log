@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-unmapped -mpssession virtuoso17443 -mpshost eeapps04.seas.ucla.edu 
-\o Working Directory:	eeapps04.seas.ucla.edu:/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a
+\o Arguments:		-unmapped -mpssession virtuoso742 -mpshost eeapps03.seas.ucla.edu 
+\o Working Directory:	eeapps03.seas.ucla.edu:/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a
 \o 64-bit offsets
 \o Qt version: 		4.8.5
 \o Loading customization file "/usr/public.2/tech/cadence/90nm/gpdk090_v4.6/libs.oa22/V2.1.302/PROGS/SKILL/cdsLibMgr.il"
@@ -14,15 +14,6 @@
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
 \a nrResizeWindow(cdsLibManager list(8 31 470 968))
-\a nrResizeWindow(cdsLibManager list(3017 511 454 968))
-\a nrResizeWindow(cdsLibManager list(3017 511 613 968))
-\a nrResizeWindow(cdsLibManager list(3017 511 616 968))
-\a nrResizeWindow(cdsLibManager list(3101 595 766 380))
-\a nrResizeWindow(cdsLibManager list(3011 505 1423 980))
-\a nrResizeWindow(cdsLibManager list(3011 505 517 980))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "scs130ms"
-\a cdsLibManager->libLineEdit->value = "scs130ms"
 \a cdsLibManager->libListBox->value = "tutorial"
 \a cdsLibManager->libLineEdit->value = "tutorial"
 \a cdsLibManager->cellListBox->value = "project"
@@ -40,72 +31,32 @@
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "project"
+\a cdsLibManager->cellLineEdit->value = "project"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "tutorial"
-\a cdsLibManager->libLineEdit->value = "tutorial"
-\a cdsLibManager->cellListBox->value = "project"
-\a cdsLibManager->cellLineEdit->value = "project"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(0 0 517 980))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(3011 505 592 973))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(0 0 592 973))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "tutorial"
-\a cdsLibManager->libLineEdit->value = "tutorial"
-\a cdsLibManager->cellListBox->value = "project"
-\a cdsLibManager->cellLineEdit->value = "project"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "tutorial"
-\a cdsLibManager->libLineEdit->value = "tutorial"
-\a cdsLibManager->cellListBox->value = "project"
-\a cdsLibManager->cellLineEdit->value = "project"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
