@@ -88,7 +88,7 @@ tmp10 = make_sevVariableStruct()
 tmp10 = (ncons nil)
 )
 tmp10->name = "Ib"
-tmp10->expression = "200u"
+tmp10->expression = "6m"
 tmp10->index = 10
 (unless tmp11
 tmp11 = make_sevVariableStruct()
