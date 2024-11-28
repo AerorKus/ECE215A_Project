@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-unmapped -mpssession virtuoso4484 -mpshost eeapps04.seas.ucla.edu 
+\o Arguments:		-unmapped -mpssession virtuoso17858 -mpshost eeapps04.seas.ucla.edu 
 \o Working Directory:	eeapps04.seas.ucla.edu:/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -13,10 +13,10 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(3033 573 470 968))
+\a nrResizeWindow(cdsLibManager list(8 31 592 980))
+\a nrResizeWindow(cdsLibManager list(3011 505 592 980))
 \a cdsLibManager->libListBox->value = "tutorial"
 \a cdsLibManager->libLineEdit->value = "tutorial"
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "project"
 \a cdsLibManager->cellLineEdit->value = "project"
 \a cdsLibManager->viewListBox->value = "schematic"
@@ -42,12 +42,24 @@
 \a cdsLibManager->viewListBox->value = "spectre_state1"
 \a cdsLibManager->viewLineEdit->value = "spectre_state1"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2344 563 470 968))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 0 592 980))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(3011 505 592 980))
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrResizeWindow(cdsLibManager list(0 0 470 968))
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 0 592 980))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -80,7 +92,6 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
 \o libManager is exiting.
 \a nrSetWindowVisibility(cdsLibManager "hide")

@@ -4,7 +4,7 @@ analysis(ac fields dec) "20"
 analysis(ac fields designVar) ""
 analysis(ac fields dev) ""
 analysis(ac fields deviceParam) ""
-analysis(ac fields enable) (t)
+analysis(ac fields enable) (nil)
 analysis(ac fields fim_out) ""
 analysis(ac fields flin_out) ""
 analysis(ac fields freq) ""
