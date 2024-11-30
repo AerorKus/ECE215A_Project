@@ -152,9 +152,9 @@
                                 <SimpleProp Name="showEdgeBrowser" Value="0" Type="boolValue" />
                                 <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
                                 <SimpleProp Name="zoom_x" Value="0.00000000000000" Type="double" />
-                                <SimpleProp Name="zoom_y" Value="0.00000000000000" Type="double" />
+                                <SimpleProp Name="zoom_y" Value="-0.100000000000000" Type="double" />
                                 <SimpleProp Name="zoom_width" Value="10000.0000000000" Type="double" />
-                                <SimpleProp Name="zoom_height" Value="1.80000000000000" Type="double" />
+                                <SimpleProp Name="zoom_height" Value="1.90000000000000" Type="double" />
                                 <SimpleProp Name="isZoomed" Value="false" Type="bool" />
                                 <IndexedProp Name="depAxisList">
                                     <ObjectProp>
@@ -172,7 +172,7 @@
                                             <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
                                             <SimpleProp Name="maxScale" Value="1.8" Type="doubleValue" />
                                             <SimpleProp Name="minDivisions" Value="10" Type="intValue" />
-                                            <SimpleProp Name="minScale" Value="0" Type="doubleValue" />
+                                            <SimpleProp Name="minScale" Value="-0.1" Type="doubleValue" />
                                             <SimpleProp Name="modifier" Value="Magnitude" Type="modifierValue" />
                                             <SimpleProp Name="modifierSet" Value="" Type="stringValue" />
                                             <SimpleProp Name="scaledUnit" Value="" Type="stringValue" />
@@ -578,7 +578,7 @@
                                 <SimpleProp Name="zoom_x" Value="0.00000000000000" Type="double" />
                                 <SimpleProp Name="zoom_y" Value="-10.0000000000000" Type="double" />
                                 <SimpleProp Name="zoom_width" Value="9.00000000000000" Type="double" />
-                                <SimpleProp Name="zoom_height" Value="46.0000000000000" Type="double" />
+                                <SimpleProp Name="zoom_height" Value="70.0000000000000" Type="double" />
                                 <SimpleProp Name="isZoomed" Value="false" Type="bool" />
                                 <IndexedProp Name="depAxisList">
                                     <ObjectProp>
@@ -594,7 +594,7 @@
                                             <SimpleProp Name="labelWithAxisNumber" Value="0" Type="boolValue" />
                                             <SimpleProp Name="majDivisions" Value="10" Type="intValue" />
                                             <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
-                                            <SimpleProp Name="maxScale" Value="36" Type="doubleValue" />
+                                            <SimpleProp Name="maxScale" Value="60" Type="doubleValue" />
                                             <SimpleProp Name="minDivisions" Value="10" Type="intValue" />
                                             <SimpleProp Name="minScale" Value="-10" Type="doubleValue" />
                                             <SimpleProp Name="modifier" Value="Magnitude" Type="modifierValue" />
