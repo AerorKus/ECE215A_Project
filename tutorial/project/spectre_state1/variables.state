@@ -6,8 +6,8 @@ tmp1 = make_sevVariableStruct()
 (unless tmp1
 tmp1 = (ncons nil)
 )
-tmp1->name = "Ib"
-tmp1->expression = "250u"
+tmp1->name = "R"
+tmp1->expression = "7.023k"
 tmp1->index = 1
 (unless tmp2
 tmp2 = make_sevVariableStruct()
@@ -15,7 +15,7 @@ tmp2 = make_sevVariableStruct()
 (unless tmp2
 tmp2 = (ncons nil)
 )
-tmp2->name = "In"
+tmp2->name = "Ib"
 tmp2->expression = "250u"
 tmp2->index = 2
 (unless tmp3
@@ -24,8 +24,8 @@ tmp3 = make_sevVariableStruct()
 (unless tmp3
 tmp3 = (ncons nil)
 )
-tmp3->name = "Ip"
-tmp3->expression = "500u"
+tmp3->name = "In"
+tmp3->expression = "250u"
 tmp3->index = 3
 (unless tmp4
 tmp4 = make_sevVariableStruct()
