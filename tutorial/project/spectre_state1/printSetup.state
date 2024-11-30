@@ -1,1 +1,19 @@
- 
+'(nil version 1.0 bBox ((0 1332) (550 1920)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->width = nil
+printInfoDpl->numSpaces = nil
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->noMerge = nil
+printInfoDpl->origStrList = nil
+printInfoDpl->printType = nil
+printInfoDpl->saveLoadFile = "/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a/tutorial/project/spectre_state1/printSetup.state"
+printInfoDpl->saveNeeded = nil

@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-unmapped -mpssession virtuoso17644 -mpshost eeapps04.seas.ucla.edu 
+\o Arguments:		-unmapped -mpssession virtuoso18109 -mpshost eeapps04.seas.ucla.edu 
 \o Working Directory:	eeapps04.seas.ucla.edu:/w/home.01/ol/grad/laj/workspace/ee215a/cbin/ee215a
 \o 64-bit offsets
 \o Qt version: 		4.8.5
@@ -13,14 +13,13 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(8 31 592 980))
-\a nrResizeWindow(cdsLibManager list(3011 505 592 980))
+\a nrResizeWindow(cdsLibManager list(3019 536 592 980))
 \a cdsLibManager->libListBox->value = "tutorial"
 \a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "diff_pair"
+\a cdsLibManager->cellLineEdit->value = "diff_pair"
 \a cdsLibManager->cellListBox->value = "project"
 \a cdsLibManager->cellLineEdit->value = "project"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = "spectre_state1"
 \a cdsLibManager->viewLineEdit->value = "spectre_state1"
 \o MPS request: edit design
@@ -41,8 +40,51 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "spectre_state1"
 \a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "project"
+\a cdsLibManager->cellLineEdit->value = "project"
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "project"
+\a cdsLibManager->cellLineEdit->value = "project"
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "tutorial"
+\a cdsLibManager->libLineEdit->value = "tutorial"
+\a cdsLibManager->cellListBox->value = "project"
+\a cdsLibManager->cellLineEdit->value = "project"
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "spectre_state1"
+\a cdsLibManager->viewLineEdit->value = "spectre_state1"
