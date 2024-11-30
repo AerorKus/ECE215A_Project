@@ -429,7 +429,7 @@
                                 <SimpleProp Name="type" Value="reference" Type="stringValue" />
                                 <SimpleProp Name="vaxMeasurementType" Value="vaxUnknownMeasurementType" Type="stringValue" />
                                 <SimpleProp Name="visible" Value="1" Type="boolValue" />
-                                <SimpleProp Name="viva.marker.snapInterceptDataValue" Value="969.797588961m" Type="stringValue" />
+                                <SimpleProp Name="viva.marker.snapInterceptDataValue" Value="287.527658444m" Type="stringValue" />
                                 <SimpleProp Name="viva.refPointMarker.circDefaultLabel" Value="%C (%F)" Type="stringValue" />
                                 <SimpleProp Name="viva.refPointMarker.defaultLabel" Value="%X %Y" Type="stringValue" />
                                 <SimpleProp Name="viva.refPointMarker.drawCrossHairs" Value="Dynamic" Type="drawCrossHairModeValue" />
@@ -442,9 +442,9 @@
                                 <SimpleProp Name="viva.refPointMarker.snapPoint" Value="Data Point" Type="markerSnapPointValue" />
                                 <SimpleProp Name="viva.refPointMarker.snapPointDataValue" Value="523.024961602m" Type="stringValue" />
                                 <SimpleProp Name="xlocation" Value="0.523024961602" Type="doubleValue" />
-                                <SimpleProp Name="ylocation" Value="0.969797588961177" Type="doubleValue" />
+                                <SimpleProp Name="ylocation" Value="0.287527658443717" Type="doubleValue" />
                                 <SimpleProp Name="dataPosition_x" Value="0.523024961602" Type="doubleValue" />
-                                <SimpleProp Name="dataPosition_y" Value="0.969797588961" Type="doubleValue" />
+                                <SimpleProp Name="dataPosition_y" Value="0.287527658444" Type="doubleValue" />
                                 <SimpleProp Name="refPointKind" Value="MiscRefPointMarker" Type="stringValue" />
                             </Object>
                         </ObjectProp>
