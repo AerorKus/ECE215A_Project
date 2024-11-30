@@ -429,7 +429,7 @@
                                 <SimpleProp Name="type" Value="reference" Type="stringValue" />
                                 <SimpleProp Name="vaxMeasurementType" Value="vaxUnknownMeasurementType" Type="stringValue" />
                                 <SimpleProp Name="visible" Value="1" Type="boolValue" />
-                                <SimpleProp Name="viva.marker.snapInterceptDataValue" Value="287.527658444m" Type="stringValue" />
+                                <SimpleProp Name="viva.marker.snapInterceptDataValue" Value="1.66749356699" Type="stringValue" />
                                 <SimpleProp Name="viva.refPointMarker.circDefaultLabel" Value="%C (%F)" Type="stringValue" />
                                 <SimpleProp Name="viva.refPointMarker.defaultLabel" Value="%X %Y" Type="stringValue" />
                                 <SimpleProp Name="viva.refPointMarker.drawCrossHairs" Value="Dynamic" Type="drawCrossHairModeValue" />
@@ -442,9 +442,9 @@
                                 <SimpleProp Name="viva.refPointMarker.snapPoint" Value="Data Point" Type="markerSnapPointValue" />
                                 <SimpleProp Name="viva.refPointMarker.snapPointDataValue" Value="523.024961602m" Type="stringValue" />
                                 <SimpleProp Name="xlocation" Value="0.523024961602" Type="doubleValue" />
-                                <SimpleProp Name="ylocation" Value="0.287527658443717" Type="doubleValue" />
+                                <SimpleProp Name="ylocation" Value="1.66749356698889" Type="doubleValue" />
                                 <SimpleProp Name="dataPosition_x" Value="0.523024961602" Type="doubleValue" />
-                                <SimpleProp Name="dataPosition_y" Value="0.287527658444" Type="doubleValue" />
+                                <SimpleProp Name="dataPosition_y" Value="1.66749356699" Type="doubleValue" />
                                 <SimpleProp Name="refPointKind" Value="MiscRefPointMarker" Type="stringValue" />
                             </Object>
                         </ObjectProp>
@@ -613,7 +613,7 @@
                                 <SimpleProp Name="zoom_x" Value="0.00000000000000" Type="double" />
                                 <SimpleProp Name="zoom_y" Value="-10.0000000000000" Type="double" />
                                 <SimpleProp Name="zoom_width" Value="9.00000000000000" Type="double" />
-                                <SimpleProp Name="zoom_height" Value="65.0000000000000" Type="double" />
+                                <SimpleProp Name="zoom_height" Value="70.0000000000000" Type="double" />
                                 <SimpleProp Name="isZoomed" Value="false" Type="bool" />
                                 <IndexedProp Name="depAxisList">
                                     <ObjectProp>
@@ -629,7 +629,7 @@
                                             <SimpleProp Name="labelWithAxisNumber" Value="0" Type="boolValue" />
                                             <SimpleProp Name="majDivisions" Value="10" Type="intValue" />
                                             <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
-                                            <SimpleProp Name="maxScale" Value="55" Type="doubleValue" />
+                                            <SimpleProp Name="maxScale" Value="60" Type="doubleValue" />
                                             <SimpleProp Name="minDivisions" Value="10" Type="intValue" />
                                             <SimpleProp Name="minScale" Value="-10" Type="doubleValue" />
                                             <SimpleProp Name="modifier" Value="Magnitude" Type="modifierValue" />
