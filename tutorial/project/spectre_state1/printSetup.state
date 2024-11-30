@@ -1,4 +1,4 @@
-'(nil version 1.0 bBox ((0 1332) (550 1920)))
+'(nil version 1.0 bBox ((1081 425) (2413 1425)))
 (unless printInfoDpl
 printInfoDpl = (ncons nil)
 )
@@ -7,6 +7,9 @@ printInfoDpl->expTable = (ncons nil)
 )
 (unless printInfoDpl->optionDpl
 printInfoDpl->optionDpl = (ncons nil)
+)
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
 )
 printInfoDpl->width = nil
 printInfoDpl->numSpaces = nil
