@@ -1,4 +1,4 @@
-'(nil version 1.0 bBox ((0 920) (584 1920)))
+'(nil version 1.0 bBox ((2415 425) (2999 1425)))
 (unless printInfoDpl
 printInfoDpl = (ncons nil)
 )
